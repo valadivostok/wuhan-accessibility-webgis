@@ -1,0 +1,15 @@
+{
+  "bounds": [
+    113.5,
+    29.8,
+    115.25,
+    31.55
+  ],
+  "minzoom": 9,
+  "maxzoom": 11,
+  "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+  "tiles": 197,
+  "bytes": 3584970,
+  "cachedAt": "2026-10-26T12:44:29.622Z",
+  "attribution": "Imagery © Esri, Vantor, Earthstar Geographics"
+}

@@ -1,0 +1,20 @@
+# Only application inputs enter the build context; private keys and PDFs stay local.
+**
+!Dockerfile
+!package.json
+!package-lock.json
+!index.html
+!vite.config.js
+!src/
+!src/**
+!public/
+!public/**
+!server/
+!server/**
+!py/
+!py/accessibility.py
+!py/requirements-accessibility.txt
+**/__pycache__/
+**/*.pyc
+**/*.test.mjs
+**/.env*

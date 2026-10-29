@@ -1,0 +1,30 @@
+{
+  "name": "wuhan-accessibility-platform",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "prepare:data": "python py/prepare_demo_data.py && npm run prepare:tiles",
+    "prepare:tiles": "node py/prepare_vector_tiles.mjs",
+    "prepare:overview": "node py/prepare_satellite_overview.mjs",
+    "prepare:network": "node py/prepare_accessibility.mjs",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node server/serve.mjs",
+    "test": "node --test server/*.test.mjs",
+    "test:accessibility": "node --test server/accessibility.test.mjs && node py/test_accessibility.mjs"
+  },
+  "dependencies": {
+    "element-plus": "^2.11.5",
+    "maplibre-gl": "^6.16.0",
+    "ol": "^10.6.1",
+    "vue": "^3.5.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "geojson-vt": "^5.0.4",
+    "vite": "^7.1.5",
+    "vt-pbf": "^3.1.3"
+  }
+}

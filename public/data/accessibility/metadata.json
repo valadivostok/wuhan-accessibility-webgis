@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-28T08:56:17.905148+00:00",
+  "crs": "EPSG:32650",
+  "source": "D:\\GIS学习\\研究方向\\GISdata\\01_交通网络\\01_道路路网\\gis_osm_roads_free_1.shp",
+  "sourceCrs": "EPSG:4326",
+  "sourceTimestamp": "2026-10-23T20:20:51Z",
+  "attribution": "© OpenStreetMap contributors · ODbL 1.0",
+  "nodes": 126885,
+  "edges": 174992,
+  "sourceRoads": 75302,
+  "contextMeters": 5000,
+  "topology": "Shared original vertices (1 mm rounding); geometric crossings are not noded"
+}
